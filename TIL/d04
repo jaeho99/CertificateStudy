@@ -1,0 +1,23 @@
+여기에 새로알게된 내용 정리하고 깃허브에 올리고 카톡 나에게 보내기
+
+C언어
+전위 연산자(바로 적용이 된다.)
+++i;
+
+후위 연산자(다음 줄에 적용이 된다.)
+i++;
+
+Java
+try catch
+
+
+ArithmeticException : 산술 연산 중 잘못된 연산 오류
+NullPointerException : null 객체에 접근할 때 오류
+ArrayIndexOutOfBoundsException : 배열 인덱스 범위를 벗어나 접근할 때
+
+finally는 무조건 실행된다.
+
+클래스 부모 자식
+자식 생성자 실행시 부모 생성자 실행
+ 
+자식 클래스가 Override 했을때는 자식 클래스의 메서드 실행
