@@ -1,0 +1,16 @@
+포인터에서 주소 변수의 값을 변경하면 { } 중괄호 밖에서 값을 변경하더라도 변경된 값을 공유한다.
+
+예시 코드
+
+void chage(int *a){
+  *a = 123;
+}
+
+int main(){
+  int num = 10;
+  print("변경 전 : %d\n", num);
+  chage(&num);
+  printf("변경 후 : %d", num);
+
+  return 0;
+}
